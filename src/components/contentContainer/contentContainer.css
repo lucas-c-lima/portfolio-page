@@ -1,0 +1,14 @@
+.item-container{
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: #000 0px 0px 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.item-container > h1{
+    margin: 0;
+    padding-left: 5px;
+    border-bottom: #ffffff55 1px solid;
+}

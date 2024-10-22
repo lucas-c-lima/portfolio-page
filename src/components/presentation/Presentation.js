@@ -38,9 +38,6 @@ function Presentation(){
                     </span>
                 </h1>
             </div>
-            <div className="text-aboutme">
-                I'm a Software Developer based in Curitiba, Brazil, passionate about creating efficient software solutions. With expertise in various programming languages and technologies, I focus on developing applications and APIs that enhance user experiences and optimize processes.
-            </div>
             <div className="buttons-contact">
                 <CustomButton icon={faWhatsapp} href='https://wa.me/5541997054996'/>
                 <CustomButton icon={faLinkedinIn} href='https://www.linkedin.com/in/lucascordeirodelima/'/>

@@ -1,13 +1,47 @@
-html, body{
+html, body, #root{
   height: 100%;
   width: 100%;
   background-image: linear-gradient(135deg, #121212 0%, #131313 100%);
+  color: white;
+  font-family:  'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.App{
+  height: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5%;
-  color: white;
-  font-family:  'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.c1, .c2{
+  margin-top: 50px;
+  width: 750px;
+}
+.c1{
+  display: flex;
+  justify-content: center;
+}
+.c1 > div{
+  position: relative;
+}
+.c2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 1510px){
+  .c1, .c2{
+    margin-top: 5%;
+  }
+  .c1 > div{
+    position: fixed;
+  }
+  .App{
+    height: 100%;
+  }
 }
