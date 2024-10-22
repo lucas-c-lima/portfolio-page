@@ -1,0 +1,19 @@
+.button-customButton{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background-image: linear-gradient(135deg, #1f1f1f 0%, #222 100%);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button-customButton:hover{
+    background-image: linear-gradient(135deg, #222 0%, #1f1f1f 100%);
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
