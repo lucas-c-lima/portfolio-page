@@ -12,3 +12,15 @@
     padding-left: 5px;
     border-bottom: #ffffff55 1px solid;
 }
+.item-container > h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #909090;
+}
+
+@media (max-width: 768px) {
+    .item-container > h2{
+        font-size: px;
+    }
+}
