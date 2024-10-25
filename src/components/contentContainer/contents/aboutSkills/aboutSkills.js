@@ -1,12 +1,12 @@
 import React from "react";
 import './aboutSkills.css'
 import SkillButton from "./skillsButtons/skillButton";
-import { faHtml5, faCss3, faJs, faReact, faNodeJs, faPython, faJava, faAndroid, faFlutter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faJs, faReact, faPython, faJava, faAndroid, faFlutter, faGithub, faDocker, faAws, faNode } from "@fortawesome/free-brands-svg-icons";
 
 function AboutSkills(){
 
-    const PrimSkills = [faReact, faNodeJs, faPython, faJava, faHtml5, faCss3, faJs, faGithub]
-    const SecoSkills = [faAndroid, faFlutter]
+    const PrimSkills = [faReact, faNode, faPython, faJava, faHtml5, faCss3, faJs, faGithub]
+    const SecoSkills = [faAndroid, faFlutter, faDocker, faAws]
 
 
     return(
